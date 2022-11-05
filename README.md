@@ -1,5 +1,28 @@
 # Yolov5 object detection model deployment using flask
 
+
+### Steps to run Code
+- Clone the repository.
+```
+git clone https://github.com/noorkhokhar99/yolov5-flask-object-detection.git
+```
+- Goto the cloned folder.
+```
+cd yolov5-flask-object-detection
+
+```
+- Upgrade pip with mentioned command below.
+```
+pip install --upgrade pip
+```
+- Install requirements with mentioned command below.
+```
+pip install -r requirements.txt
+```
+- Run the code with mentioned command below.
+
+
+
 ## Web app
 Simple app consisting of a form where you can upload an image, and see the inference result of the model in the browser. Run:
 
@@ -15,19 +38,7 @@ then visit http://localhost:5000/ in your browser:
 <img src="https://github.com/noorkhokhar99/yolov5-flask-object-detection/blob/main/static/image0.jpg" width="450">
 </p>
 
-## Rest API
-Simple rest API exposing the model for consumption by another service. Run:
 
-`$ python3 restapi.py --port 5000`
-
-
-
-## Run & Develop locally
-Run locally for dev, requirements mostly originate from [yolov5](https://github.com/ultralytics/yolov5/blob/master/requirements.txt):
-* `python3 -m venv venv`
-* `source venv/bin/activate`
-* `(venv) $ pip install -r requirements.txt`
-* `(venv) $ python3 restapi.py --port 5000`
 
 
 
